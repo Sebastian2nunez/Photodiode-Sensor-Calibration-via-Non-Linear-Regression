@@ -15,10 +15,3 @@ To simulate habitable zones (like TRAPPIST-1), precise control of UV radiation i
 * `Src/`: Contains the main Python pipeline script (`sensor_calibration_pipeline.py`).
 * `Data/`: Raw experimental data from UV sensors.
 * `Docs/`: Technical presentation and theoretical background (`calibracion.pdf`).
-
-### 🚀 How to Run
-1. Clone the repository.
-2. Install requirements: `pip install pandas numpy matplotlib scipy openpyxl`.
-3. Run the pipeline:
-   ```bash
-   python Src/sensor_calibration_pipeline.py
