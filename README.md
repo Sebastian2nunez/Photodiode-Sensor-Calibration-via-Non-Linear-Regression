@@ -96,10 +96,6 @@ La conversión de voltaje a irradiancia se realiza mediante:
 - [ ] Evaluación de transmitancia en función de altura/grosor de PDMS
 - [ ] Automatización completa del proceso de calibración
 
-## 📄 Licencia
-
-MIT License - ver archivo [LICENSE](LICENSE) para más detalles.
-
 ## 📧 Contacto
 
 **Sebastián Núñez**  
