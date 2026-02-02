@@ -120,11 +120,12 @@ La conversión de voltaje a irradiancia se realiza mediante:
 
 3. **Cálculo de Irradiancia:**
    ```
-   E = V_corregido / (R × S(λ))
+   E = V_corregido / (A × R × S(λ))
    ```
    
    Donde:
    - E: Irradiancia (W/m²)
+   - A: Area del fotodiodo
    - R: Resistencia de carga (Ω)
    - S(λ): Responsividad espectral (A/W)
 
@@ -146,12 +147,6 @@ La conversión de voltaje a irradiancia se realiza mediante:
 - [ ] Caracterización de irradiancia en canales microfluídicos
 - [ ] Evaluación de transmitancia en función de altura/grosor de PDMS
 - [ ] Automatización completa del proceso de calibración
-
-## 🤝 Contribuciones
-
-Este proyecto fue desarrollado como parte del Seminario de Investigación en Física, PUCV (Jul-Dic 2025).
-
-Si encuentras útil este trabajo o deseas colaborar, ¡no dudes en abrir un issue o pull request!
 
 ## 📄 Licencia
 
