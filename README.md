@@ -6,7 +6,7 @@ Sistema integrado Arduino-Python para calibración de fotodiodos en entornos con
 [![Arduino](https://img.shields.io/badge/Arduino-IDE-00979D.svg)](https://www.arduino.cc/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 📋 Descripción
+## Descripción
 
 Este proyecto desarrolla un **procedimiento sistemático de calibración** para sensores de radiación UV (fotodiodos) utilizados en experimentos de astrobiología. El sistema permite cuantificar con precisión la irradiancia UV que reciben muestras microbiológicas en entornos controlados.
 
@@ -19,7 +19,7 @@ Formulación y validación de un **modelo matemático de calibración** que rela
 
 La ecuación desarrollada permite convertir lecturas digitales del microcontrolador a valores calibrados de irradiancia (W/m²).
 
-## 🎯 Objetivos
+## Objetivos
 
 - **Calibrar sensores UV** (GUVA-S12SD, ML8511) con fuentes de radiación conocidas
 - **Evaluar transmitancia** de materiales ópticos (vidrio vs PDMS) en diferentes longitudes de onda
@@ -33,7 +33,7 @@ La ecuación desarrollada permite convertir lecturas digitales del microcontrola
    - PDMS y vidrio tienen ~100% transmitancia en UVA (390 nm)
    - PDMS superior a vidrio en transmitancia UVB (310 nm)
 
-## 🛠️ Stack Técnico
+## Stack Técnico
 
 ### Hardware
 - **Microcontrolador:** Arduino (Leonardo/Uno/Mega compatible)
@@ -50,7 +50,7 @@ La ecuación desarrollada permite convertir lecturas digitales del microcontrola
 - **Arduino IDE:** Adquisición de datos desde sensores
 - **Jupyter Notebook:** Análisis interactivo
 
-## 📊 Metodología de Calibración
+## Metodología de Calibración
 
 ### Modelo Matemático
 
@@ -83,13 +83,13 @@ La conversión de voltaje a irradiancia se realiza mediante:
 - **Método:** Validación cruzada con fuentes calibradas
 - **Reproducibilidad:** Metodología documentada paso a paso
 
-## 🔍 Aplicaciones
+## Aplicaciones
 
 - **Astrobiología:** Cuantificación de dosis UV en muestras microbiológicas
 - **Óptica:** Caracterización de transmitancia de materiales
 - **Instrumentación:** Calibración de sensores de bajo costo para investigación
 
-## 📈 Trabajo Futuro
+## Trabajo Futuro
 
 - [ ] Calibración completa del sensor GUVA-S12SD
 - [ ] Caracterización de irradiancia en canales microfluídicos
@@ -102,7 +102,3 @@ La conversión de voltaje a irradiancia se realiza mediante:
 📧 sebastian.mauricio.nunez@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/sebastian-mauricio-nuñez)  
 💻 [GitHub](https://github.com/Sebastian2nunez)
-
----
-
-⭐ Si este proyecto te resulta útil, considera darle una estrella en GitHub
